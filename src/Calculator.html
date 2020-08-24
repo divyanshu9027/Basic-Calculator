@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="CSS.css">
+  <script src="Help.js"></script>
+</head>
+<body>
+<div class="header">
+  <h1>Calculator</h1>
+</div>
+<div class="cal">
+  First Number: <input id="n1" type="text" maxlength="9" value="0.0">
+  <br>
+  <br>
+
+  Second Number: <input id="n2" type="text" maxlength="9" value="0.0">
+  <br>
+  <br>
+
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="x">x</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select>
+
+  <input type="button" value="=" onclick="calculation()">
+  <br>
+  <br>
+
+  Answer: <input id="result" type="text">
+</div>
+
+</body>
+</html>
